@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Super Web</title>
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/super.css">
+		<link rel="stylesheet" href="css/responsive.css">
+		<style>
+		
+		</style>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<a href="index.html"><img src="img/logo.png" alt="Super web" id="logo"></a>
+				<form class="buscarForm" action="#">
+					<input type="text" placeholder="Buscar" id="searchInput">
+					<button type="submit"><img id="lupa" src="img/lupa.png" alt="buscar"></button>
+				</form>
+				<ul id="navBar">
+					<li id="noticiasLi"><a href="index.html">Noticias</a></li>
+					<li><a href="index.html">Opinión</a></li>
+					<li><a href="#">Formación</a></li>
+					<li><a href="#">Contacto</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div id="mainContacto">
+			<main>
+				<h1>Formulario de contacto</h1>
+				<form action="#" method="get" id="formulario">
+					<section>
+						<h2>Datos personales</h2>
+						<div class="flexField">
+							<div class="flexLabel">
+								<label for="nombre">Nombre</label>
+							</div>
+							<div class="flexInput">
+								<input type="text" id="nombre" name="nombre">
+							</div>
+						</div>
+						<div class="flexField">
+							<div class="flexLabel">
+								<label for="apellidos">Apellidos</label>
+							</div>
+							<div class="flexInput">
+								<input type="text" id="apellidos" name="apellidos">
+							</div>
+						</div>
+						<div class="flexField">
+							<div class="flexLabel">
+								<label for="direccion">Direccion</label>
+							</div>
+							<div class="flexInput">
+								<input type="text" id="direccion" name="direccion">
+							</div>
+						</div>
+						<div class="columnDouble">
+						<div class="flexField">
+							<div class="flexLabel">
+								<label for="tlfono">Teléfono</label>
+							</div>
+							<div class="flexInput">
+								<input type="tel" id="tlfono" name="tlfono">
+							</div>
+						</div>
+						<div class="flexField">
+							<div class="flexLabel">
+								<label for="email">E-mail</label>
+							</div>
+							<div class="flexInput">
+								<input type="email" id="email" name="email">
+							</div>
+						</div>
+						</div>
+					</section>
+					<section>
+						<h2>Aficiones</h2>
+						<div class="columnDouble">
+						<div class="flexFieldOpciones">
+							<div>
+								<label for="checkboxes">Grupo de checkboxes</label>
+							</div>
+							<div>
+								<label for="uno">Checkbox 1</label><input type="checkbox" name="checkboxes" id="uno" value="uno">
+								<br>
+								<label for="dos">Checkbox 2</label><input type="checkbox" name="checkboxes" id="dos" value="dos">
+								<br>
+								<label for="tres">Checkbox 3</label><input type="checkbox" name="checkboxes" id="tres" value="tres">
+							</div>
+						</div>
+						<div class="flexFieldOpciones">
+							<div >
+								<label for="radiobuttons">Grupo de checkboxes</label>
+							</div>
+							<div >
+								<label for="uno">Radiobutton 1</label><input type="radio" name="radiobuttons" id="uno" value="uno">
+								<br>
+								<label for="dos">Radiobutton 2</label><input type="radio" name="radiobuttons" id="dos" value="dos">
+								<br>
+								<label for="tres">Radiobutton 3</label><input type="radio" name="radiobuttons" id="tres" value="tres">
+							</div>
+						</div>
+					</div>
+					<div class="columnDouble">
+						<div class="flexField">
+							<div class="flexLabel">
+								<label for="opciones">Opciones</label>
+							</div>
+							<div class="flexInput">
+								<select name="opciones" id="opciones">
+									<option value=""></option>
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+								</select>
+							</div>
+							<div class="flexLabel">
+								<label for="opciones">Opciones</label>
+							</div>
+							<div class="flexInput">
+								<select name="opciones" id="opciones">
+									<option value=""></option>
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					</section>
+					<section>
+						<div class="flexFieldComentario">
+							<div class="flexLabel">
+								<label for="comentarios">Comentarios</label>
+							</div>
+							<div class="flexInputComent">
+								<textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
+							</div>
+						</div>
+						<div class="flexField">
+							<div class="flexInput center">
+								<input type="submit" name="submit" id="submit" value="Enviar">
+							</div>
+						</div>
+					</section>
+				</form>
+			</main>
+		</div>
+		<footer>
+			<div>
+				<p>Super Web es una marca registrada de Super Web Enterprises, Wisconsin, Alabama</p>
+				<p><address>SuperWeb. Calle Jon, 23, 90210, Valdecardos de Arriba</address></p>
+				<p>&copy; Super Web 2019</p>
+			</div>
+			<div class="right">
+				<p><a href="#">Mapa web</a> ·
+				<a href="#">Información legal</a> ·
+				<a href="#">Política de cookies</a></p>
+				<div class="icons">
+					<a href="#"><img src="img/media.png" alt="iconos"></a>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
