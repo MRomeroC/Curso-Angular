@@ -1,0 +1,44 @@
+Crear repositorio en github
+Installar github windows (no el entorno gráfico)
+ir al directorio que contiene el proyecto, desde ahí git init
+git add .
+git commit -m "nombreCommit"
+git push -u origin master
+
+
+C:\Users\mromeroc\Desktop\ANGULAR>git pull
+Already up to date.
+
+C:\Users\mromeroc\Desktop\ANGULAR>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   practica/practica/index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\mromeroc\Desktop\ANGULAR>git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+
+C:\Users\mromeroc\Desktop\ANGULAR>git add .
+
+C:\Users\mromeroc\Desktop\ANGULAR>git commit -m "test"
+[master 0eace96] test
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+C:\Users\mromeroc\Desktop\ANGULAR>git push -u origin master
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 465 bytes | 93.00 KiB/s, done.
+Total 5 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/MRomeroC/Curso-Angular.git
+   8140ee6..0eace96  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
